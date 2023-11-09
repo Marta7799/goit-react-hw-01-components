@@ -1,0 +1,40 @@
+.transactionHistory {
+  font-size: 10px;
+  font-weight: 600;
+  color: rgb(128, 128, 128);
+  margin-left: 30px;
+  width: 100%;
+  box-shadow: 0px 0px 3px 1px rgba(185, 185, 185, 1);
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-style: hidden;
+  border-radius: 3px;
+  text-transform: capitalize;
+  overflow: hidden;
+  margin: auto;
+}
+
+.head {
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(255, 119, 0);
+}
+
+.headCell {
+  padding: 10px 0;
+  border: 0.7px solid rgb(255, 255, 255);
+  border-bottom: hidden;
+  border-top: hidden;
+}
+
+.cell {
+  text-align: center;
+  padding: 10px 0;
+  border: 0.7px solid rgb(237, 237, 237);
+  border-bottom: hidden;
+  border-top: hidden;
+}
+
+.row:nth-child(2n) {
+  background-color: rgb(240, 240, 240);
+}
