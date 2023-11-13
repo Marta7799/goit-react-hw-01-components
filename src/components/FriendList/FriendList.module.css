@@ -25,21 +25,13 @@
   height: 10px;
 }
 
-.statusActive {
-  /* @extend .status; */
-  margin-right: 10px;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
+.isActive {
+  composes: status;
   background-color: green;
 }
 
-.statusInactive {
-  /* @extend .status; */
-  margin-right: 10px;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
+.isInactive {
+  composes: status;
   background-color: red;
 }
 
